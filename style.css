@@ -1,0 +1,193 @@
+@import url('https://fonts.googleapis.com/css2?family=Gwendolyn:wght@400;700&display=swap');
+*{
+margin: 0;
+padding: 0;
+}.sidebar{
+    background-color: rgb(186, 191, 191);
+    font-family: "Gwendolyn", cursive;
+  font-weight: 700;
+  font-style: normal;
+  transition:transform 0.4s ease-in;
+}
+.sidebar nav{
+    padding: 20px;
+}
+.sidebar nav li{
+    list-style: none;
+    font-size: 30px;
+    padding: 33px;
+}
+.sidebar nav li a{
+    text-decoration: none;
+    color: rgb(27, 27, 26);
+}
+.main{
+    background-color: rgba(228, 247, 247, 0.849);
+    width: 85vw;
+}
+.container{
+    display: flex;
+}
+.InfoContainer{
+    /*background-color: rgb(32, 243, 63);*/
+    height: 85vh;
+    width: 140vh;
+    margin: 60px auto;
+    display: flex;
+    justify-content: space-around;
+}
+.devPic img{
+    height: 85vh;
+    width: 75vh;
+}
+.devInfo{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.hello{
+    font-size: 35px;
+    font-family: "Gwendolyn", cursive;
+}
+.name{
+    font-size: 42px;
+    font-family: "Gwendolyn", cursive;
+    font-weight: 700;
+    font-style: italic;
+    text-decoration: underline;
+}
+.about{
+    font-size: 25px;
+    font-family: "Gwendolyn", cursive;
+    text-decoration:underline;
+}
+.btn{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 13px;
+    padding: 6px;
+    border-radius: 20px;
+    cursor: pointer;
+    background-color: black;
+    color: rgb(252, 253, 253);
+    margin: 0 4px;
+}
+.btn-sm{
+    font-size: 13px;
+}
+.btn:hover{
+    background-color: rgb(140, 0, 255);
+    color: rgb(6, 245, 18);
+}
+.moreabout{
+    font-size: 25px;
+    margin-top: 18px;
+    font-family: "Gwendolyn", cursive;
+}
+.buttons{
+    margin-top: 15px;
+}
+.contactForm{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding: 0 30px;
+    padding-top: 150px;
+}
+.contactForm h1{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+}
+.contactForm div{
+    padding: 10px 0;
+    color: rgb(82, 220, 91);
+    margin: 0 5px;
+}
+.contactForm div input{
+    width: 16vw;
+    border-radius: 5px;
+    margin: 6px 0;
+    padding: 3px;
+}
+.form-check{
+    flex-direction: row;
+
+}
+#form-check input{
+    width: 24px;
+    margin: 3px 0;
+}
+.blogcontent{
+    margin: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.h1{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin: 23px;
+
+}
+.p{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.intro h2{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin: 12px;
+
+}
+.intro p{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin: 12px;
+
+}
+.skillContainer{
+    padding: 12px;
+}
+.skillItem{
+    display: flex;
+    align-items: center;
+}
+.skill{
+    width: 265px;
+    height: 6px;
+    background-color: rgb(148, 8, 228);
+}
+.hundred{
+    width: 250px;
+    border: 2px solid black;
+    background-color: azure;
+}
+.seventyfive{
+    width: 200px;
+    border: 2px solid black;
+    background-color: aquamarine;
+}
+.fifty{
+    width: 150px;
+    border: 2px solid black;
+    background-color: brown;
+}
+.twentyfive{
+    width: 100px;
+    border: 2px solid black;
+    background-color: red;
+}
+.sidebarGo{
+    transform: translate(-300px,0px);
+    position: absolute;
+}
+.hamburger{
+    position: absolute;
+    cursor: pointer;
+    top: 10px;
+    left: 10px;
+}
+.cross{
+    margin-left: 150px;
+}
+@media (max-width: 1000px) {
+    *{
+        background-color: white;
+    }
+    .sidebar{
+        position: absolute;
+        transform: translate(-300px,0px);
+    }
+    
+}
